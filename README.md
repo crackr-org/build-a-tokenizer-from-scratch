@@ -1,14 +1,12 @@
 # Build a Tokenizer from Scratch
 
-You will start with a small word tokenizer, run into its limits, and work your way up to byte-level BPE. Then you will make training fast enough for a multilingual corpus, save the learned encoding in a `.tiktoken` file, load it with `tiktoken`, and ship a playground where anyone can inspect its token boundaries, IDs, and raw bytes.
+Build a byte-level BPE tokenizer from scratch, starting with a simple word tokenizer and working up to a trained multilingual encoding compatible with tiktoken.
 
-By the end, you will have a tokenizer you trained yourself, a finished encoding that can be loaded without training again, and a live demo you can put in your portfolio.
+Along the way, you’ll implement BPE, optimize training, train your own tokenizer, save it as a .tiktoken model, and ship it in a small web playground.
 
-## This guide is from Crackr
+This repository contains the complete open-source guide. You can also build the project on [Crackr](https://app.crackr.dev/projects/build-your-own-tokenizer), where each step comes with automated evaluations, progress tracking, and interactive playgrounds.
 
-This repository is the open-source version of the [Build a Tokenizer from Scratch](https://app.crackr.dev/projects/build-your-own-tokenizer) project from Crackr. You can follow the complete guide here, but for the best experience, use it inside the platform. You will get the interactive playgrounds, progress tracking, and the test infrastructure that evaluates your implementation as you build it.
-
-The complete project is free, including the guide and every automated evaluation.
+The full project and all evaluations are free.
 
 ## Project setup
 
