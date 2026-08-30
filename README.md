@@ -4,6 +4,8 @@ Build a byte-level BPE tokenizer from scratch, starting with a simple word token
 
 Along the way, you’ll implement BPE, optimize training, train your own tokenizer, save it as a .tiktoken model, and ship it in a small web playground.
 
+**Live demo:** [See what you will build by the end of the guide](https://tokenizer-playground.onrender.com/).
+
 This repository contains the complete open-source guide. You can also build the project on [Crackr](https://app.crackr.dev/projects/build-your-own-tokenizer), where each step comes with automated evaluations, progress tracking, and interactive playgrounds.
 
 The full project and all evaluations are free.
@@ -14,9 +16,9 @@ The full project and all evaluations are free.
 
 ## Build a simple tokenizer
 
-- LLMs can’t read
-- Build the core tokenizer
-- Handle special tokens
+- [LLMs can’t read](guide/02-build-a-simple-tokenizer/01-llms-cant-read.md)
+- [Build the core tokenizer](guide/02-build-a-simple-tokenizer/02-build-core-tokenizer.md)
+- [Handle special tokens](guide/02-build-a-simple-tokenizer/03-handle-special-tokens.md)
 
 ## Build a BPE tokenizer
 

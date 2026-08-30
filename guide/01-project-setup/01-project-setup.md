@@ -32,4 +32,4 @@ Commit your work as you finish each implementation chapter. The training corpus 
 
 ---
 
-[Guide contents](../../README.md)
+[Guide contents](../../README.md) · [Next →](../02-build-a-simple-tokenizer/01-llms-cant-read.md)
