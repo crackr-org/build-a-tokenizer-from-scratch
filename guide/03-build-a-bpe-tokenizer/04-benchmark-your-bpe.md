@@ -111,4 +111,4 @@ Save the benchmark somewhere, copy it or take a screenshot. We'll need it later 
 
 ---
 
-[← Previous](03-implement-bpe.md) · [Guide contents](../../README.md)
+[← Previous](03-implement-bpe.md) · [Guide contents](../../README.md) · [Next →](../04-make-bpe-training-fast/01-update-pair-counts.md)

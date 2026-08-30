@@ -29,10 +29,10 @@ The full project and all evaluations are free.
 
 ## Make BPE training fast
 
-- Update pair counts
-- Pretokenize in parallel
-- Build a pair index
-- Build a pair heap
+- [Update pair counts](guide/04-make-bpe-training-fast/01-update-pair-counts.md)
+- [Pretokenize in parallel](guide/04-make-bpe-training-fast/02-pretokenize-in-parallel.md)
+- [Build a pair index](guide/04-make-bpe-training-fast/03-build-a-pair-index.md)
+- [Build a pair heap](guide/04-make-bpe-training-fast/04-build-a-pair-heap.md)
 
 ## Ship your tokenizer
 
