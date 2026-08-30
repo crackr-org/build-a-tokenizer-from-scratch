@@ -147,4 +147,4 @@ Stepping back for a second, our naive trainer took **16.52 seconds** at **1,024 
 
 ---
 
-[← Previous](03-build-a-pair-index.md) · [Guide contents](../../README.md)
+[← Previous](03-build-a-pair-index.md) · [Guide contents](../../README.md) · [Next →](../05-ship-your-tokenizer/01-scale-up-training.md)

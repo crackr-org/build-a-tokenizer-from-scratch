@@ -36,10 +36,10 @@ The full project and all evaluations are free.
 
 ## Ship your tokenizer
 
-- Scale up training
-- Port your tokenizer
-- Build a tokenizer playground
-- Where to go from here
+- [Scale up training](guide/05-ship-your-tokenizer/01-scale-up-training.md)
+- [Port your tokenizer to tiktoken](guide/05-ship-your-tokenizer/02-port-your-tokenizer-to-tiktoken.md)
+- [Build a tokenizer playground](guide/05-ship-your-tokenizer/03-build-a-tokenizer-playground.md)
+- [Where to go from here](guide/05-ship-your-tokenizer/04-where-to-go-from-here.md)
 
 ## License
 
