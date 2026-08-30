@@ -1,46 +1,50 @@
 # Build a Tokenizer from Scratch
 
-An open project guide for building a byte-level BPE tokenizer from first principles.
+Build a byte-level BPE tokenizer from the ground up. You will start with the smallest possible text-to-ID mapping, replace it with byte-level BPE, make training fast enough for a multilingual corpus, save the learned encoding, and put the finished tokenizer online.
 
-The guide starts with a deliberately small word tokenizer, moves through Unicode and UTF-8 bytes, implements byte pair encoding, profiles and optimizes training, then saves and serves the finished encoding.
+The implementation is yours. The guide gives you the concepts, required interfaces, expected behavior, checks to run before each submission, and hints for when you are genuinely stuck.
 
-## Run the guide locally
+## What you will build
 
-```bash
-npm install
-npm run dev
-```
+- A simple tokenizer that maps text to token IDs and back
+- A byte-level BPE tokenizer that can encode any UTF-8 text
+- An optimized trainer with incremental pair counts, a pair index, parallel pretokenization, and a heap
+- A multilingual encoding saved in a loadable tokenizer file
+- A small public playground for inspecting token boundaries, IDs, and raw bytes
 
-Open the local URL printed by the development server.
+## Guide
 
-## Connect the hosted evaluator
+### 1. Project setup
 
-Implementation chapters include an optional evaluation handoff. Copy `.env.example` to `.env` and set `VITE_EVALUATION_URL` to the hosted project page:
+- [Prepare your workspace](guide/01-project-setup/01-project-setup.md)
 
-```bash
-cp .env.example .env
-```
+### 2. Build a simple tokenizer
 
-The guide itself is completely readable without an evaluator. The external evaluation only adds automated repository checks and submission history.
+- LLMs can’t read
+- Build the core tokenizer
+- Handle special tokens
 
-## Guide structure
+### 3. Build a BPE tokenizer
 
-1. Project setup
-2. Build a simple tokenizer
-3. Build a BPE tokenizer
-4. Make BPE training fast
-5. Ship your tokenizer
+- Unicode, UTF-8, and bytes
+- How BPE compresses text
+- Implement BPE
+- Benchmark your BPE implementation
 
-The lesson source lives in `src/content`. Shared visual and code components live in `src/components`.
+### 4. Make BPE training fast
 
-## Build
+- Update pair counts
+- Pretokenize in parallel
+- Build a pair index
+- Build a pair heap
 
-```bash
-npm run build
-```
+### 5. Ship your tokenizer
 
-The static output is written to `dist/`.
+- Scale up training
+- Port your tokenizer
+- Build a tokenizer playground
+- Where to go from here
 
 ## License
 
-The guide source is available under the MIT License.
+This guide is available under the [MIT License](LICENSE).
