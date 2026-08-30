@@ -1,44 +1,40 @@
 # Build a Tokenizer from Scratch
 
-Build a byte-level BPE tokenizer from the ground up. You will start with the smallest possible text-to-ID mapping, replace it with byte-level BPE, make training fast enough for a multilingual corpus, save the learned encoding, and put the finished tokenizer online.
+You will start with a small word tokenizer, run into its limits, and work your way up to byte-level BPE. Then you will make training fast enough for a multilingual corpus, save the learned encoding in a `.tiktoken` file, load it with `tiktoken`, and ship a playground where anyone can inspect its token boundaries, IDs, and raw bytes.
 
-The implementation is yours. The guide gives you the concepts, required interfaces, expected behavior, checks to run before each submission, and hints for when you are genuinely stuck.
+By the end, you will have a tokenizer you trained yourself, a finished encoding that can be loaded without training again, and a live demo you can put in your portfolio.
 
-## What you will build
+## This guide is from Crackr
 
-- A simple tokenizer that maps text to token IDs and back
-- A byte-level BPE tokenizer that can encode any UTF-8 text
-- An optimized trainer with incremental pair counts, a pair index, parallel pretokenization, and a heap
-- A multilingual encoding saved in a loadable tokenizer file
-- A small public playground for inspecting token boundaries, IDs, and raw bytes
+This repository is the open-source version of the [Build a Tokenizer from Scratch](https://app.crackr.dev/projects/build-your-own-tokenizer) project from Crackr. You can follow the complete guide here, but for the best experience, use it inside the platform. You will get the interactive playgrounds, progress tracking, and the test infrastructure that evaluates your implementation as you build it.
 
-## Guide
+The complete project is free, including the guide and every automated evaluation.
 
-### 1. Project setup
+## Project setup
 
 - [Prepare your workspace](guide/01-project-setup/01-project-setup.md)
 
-### 2. Build a simple tokenizer
+## Build a simple tokenizer
 
 - LLMs can’t read
 - Build the core tokenizer
 - Handle special tokens
 
-### 3. Build a BPE tokenizer
+## Build a BPE tokenizer
 
 - Unicode, UTF-8, and bytes
 - How BPE compresses text
 - Implement BPE
 - Benchmark your BPE implementation
 
-### 4. Make BPE training fast
+## Make BPE training fast
 
 - Update pair counts
 - Pretokenize in parallel
 - Build a pair index
 - Build a pair heap
 
-### 5. Ship your tokenizer
+## Ship your tokenizer
 
 - Scale up training
 - Port your tokenizer
