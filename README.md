@@ -22,10 +22,10 @@ The full project and all evaluations are free.
 
 ## Build a BPE tokenizer
 
-- Unicode, UTF-8, and bytes
-- How BPE compresses text
-- Implement BPE
-- Benchmark your BPE implementation
+- [Unicode, UTF-8, and bytes](guide/03-build-a-bpe-tokenizer/01-unicode-utf8-and-bytes.md)
+- [How BPE compresses text](guide/03-build-a-bpe-tokenizer/02-how-bpe-compresses-text.md)
+- [Implement BPE](guide/03-build-a-bpe-tokenizer/03-implement-bpe.md)
+- [Benchmark your BPE implementation](guide/03-build-a-bpe-tokenizer/04-benchmark-your-bpe.md)
 
 ## Make BPE training fast
 

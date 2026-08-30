@@ -102,4 +102,4 @@ Test `tokenize("one.<|endoftext|>two.")`. The marker should be one list item eve
 
 ---
 
-[← Previous](02-build-core-tokenizer.md) · [Guide contents](../../README.md)
+[← Previous](02-build-core-tokenizer.md) · [Guide contents](../../README.md) · [Next →](../03-build-a-bpe-tokenizer/01-unicode-utf8-and-bytes.md)
